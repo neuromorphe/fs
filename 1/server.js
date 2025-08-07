@@ -26,7 +26,7 @@ io.on('connection', (socket) => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 13381;
 server.listen(PORT, '150.241.114.194', () => {
     console.log(`Сервер запущен на порту ${PORT}`);
 });
